@@ -57,6 +57,7 @@ end
 
 group :development do
   gem 'travis'
+  gem 'foreman'
 end
 
 gem 'bootstrap-sass', '~> 3.0'
@@ -68,3 +69,6 @@ gem 'carrierwave'
 gem 'puma'
 gem 'mini_magick'
 gem 'fog'
+gem 'resque'
+gem 'redis'
+
